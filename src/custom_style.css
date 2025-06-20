@@ -1,0 +1,40 @@
+/* Apply smooth scrolling to the whole page */
+:root {
+    scroll-behavior: smooth;
+  }
+  
+
+  ::-webkit-scrollbar {
+    width: 1.1rem; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #bfb6b6; 
+    border-radius:1.1rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #ff8a00, #502ee5); /* Orange-Purple gradient */
+    border-radius: 1.1rem;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #342ee5, #ff8a00); /* Reverse gradient on hover */
+  }
+  
+  /* Customizing Scrollbar for Firefox */
+  * {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: #0D1117 white; /* Thumb and Track color */
+  }
+  #root{
+    overflow-y: scroll;
+  }
+  .hide-scrollbar {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Edge & IE */
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }

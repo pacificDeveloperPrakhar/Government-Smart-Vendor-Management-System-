@@ -1,0 +1,42 @@
+export const applications = [
+  {
+    id: 1,
+    name: "Student 1",
+    email: "student1@example.com",
+    phone: "123-456-7890",
+    message: "This is a message from Student 1.",
+    course: "online placemecourse",
+  },
+  {
+    id: 2,
+    name: "Student 2",
+    email: "student2@example.com",
+    phone: "123-456-7891",
+    message: "This is a message from Student 2.",
+    course: "online placemecourse",
+  },
+  {
+    id: 3,
+    name: "Student 3",
+    email: "student3@example.com",
+    phone: "123-456-7892",
+    message: "This is a message from Student 3.",
+    course: "online placemecourse",
+  },
+  {
+    id: 4,
+    name: "Student 4",
+    email: "student4@example.com",
+    phone: "123-456-7893",
+    message: "This is a message from Student 4.",
+    course: "online placemecourse",
+  },
+  {
+    id: 5,
+    name: "Student 5",
+    email: "student5@example.com",
+    phone: "123-456-7894",
+    message: "This is a message from Student 5.",
+    course: "online placemecourse",
+  },
+];
